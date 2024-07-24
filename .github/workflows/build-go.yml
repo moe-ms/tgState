@@ -49,7 +49,7 @@ jobs:
       - name: Upload server asset
         uses: actions/upload-release-asset@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.OKOKOK }}
         with:
           upload_url: ${{ github.event.release.upload_url }}
           asset_path: ./tgState.zip
@@ -59,7 +59,7 @@ jobs:
       - name: Upload server asset
         uses: actions/upload-release-asset@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.OKOKOK }}
         with:
           upload_url: ${{ github.event.release.upload_url }}
           asset_path: ./tgState_arm64.zip
